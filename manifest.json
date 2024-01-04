@@ -9,7 +9,7 @@
             ],
             "run_at": "document_start",
             "css": [
-                "content-scripts/youtube-shorts-remover.css"
+                "youtube-shorts-remover.css"
             ]
         }
     ],
