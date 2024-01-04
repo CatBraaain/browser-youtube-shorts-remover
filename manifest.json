@@ -1,6 +1,6 @@
 {
-    "name": "YoutubeShortRemover",
-    "version": "1.0.0",
+    "name": "Youtube Shorts Remover",
+    "version": "1.0.1",
     "manifest_version": 3,
     "content_scripts": [
         {
@@ -9,8 +9,9 @@
             ],
             "run_at": "document_start",
             "css": [
-                "content-scripts/youtube-short-remover.css"
+                "content-scripts/youtube-shorts-remover.css"
             ]
         }
-    ]
+    ],
+    "homepage_url": "https://github.com/CatBraaain/chrome-youtube-shorts-remover"
 }
