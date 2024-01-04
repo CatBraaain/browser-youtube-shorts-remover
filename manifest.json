@@ -1,0 +1,16 @@
+{
+    "name": "YoutubeShortRemover",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "run_at": "document_start",
+            "css": [
+                "content-scripts/youtube-short-remover.css"
+            ]
+        }
+    ]
+}
