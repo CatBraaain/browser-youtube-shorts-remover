@@ -1,4 +1,6 @@
 ytd-rich-section-renderer,
-ytd-reel-shelf-renderer {
+ytd-reel-shelf-renderer,
+ytd-guide-entry-renderer>a:not([href]),
+ytd-mini-guide-entry-renderer>a:not([href]) {
     display: none !important;
 }
