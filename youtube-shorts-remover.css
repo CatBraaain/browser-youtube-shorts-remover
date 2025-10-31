@@ -2,6 +2,7 @@ ytd-rich-section-renderer,
 ytd-reel-shelf-renderer,
 ytd-guide-entry-renderer > [title]:not([href]),
 ytd-mini-guide-entry-renderer > [title]:not([href]),
+grid-shelf-view-model,
 ytd-video-renderer:has([href^="/shorts/"]) {
   display: none !important;
 }
