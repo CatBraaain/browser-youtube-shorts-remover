@@ -1,28 +1,19 @@
 {
-    "name": "Youtube Shorts Remover",
-    "version": "1.3.0",
-    "description": "Goodbye Forever Youtube Shorts",
-    "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://www.youtube.com/*"
-            ],
-            "run_at": "document_start",
-            "css": [
-                "youtube-shorts-remover.css"
-            ]
-        }
-    ],
-    "permissions": [
-        "tabs",
-        "scripting"
-    ],
-    "host_permissions": [
-        "https://www.youtube.com/*"
-    ],
-    "homepage_url": "https://github.com/CatBraaain/chrome-youtube-shorts-remover"
+  "name": "Youtube Shorts Remover",
+  "version": "1.3.0",
+  "description": "Goodbye Forever Youtube Shorts",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "run_at": "document_start",
+      "css": ["youtube-shorts-remover.css"]
+    }
+  ],
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "homepage_url": "https://github.com/CatBraaain/chrome-youtube-shorts-remover"
 }

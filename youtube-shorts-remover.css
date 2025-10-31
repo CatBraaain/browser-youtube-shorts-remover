@@ -1,7 +1,7 @@
 ytd-rich-section-renderer,
 ytd-reel-shelf-renderer,
-ytd-guide-entry-renderer>[title]:not([href]),
-ytd-mini-guide-entry-renderer>[title]:not([href]),
+ytd-guide-entry-renderer > [title]:not([href]),
+ytd-mini-guide-entry-renderer > [title]:not([href]),
 ytd-video-renderer:has([href^="/shorts/"]) {
-    display: none !important;
+  display: none !important;
 }
